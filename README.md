@@ -125,11 +125,13 @@
 - 按顺序完成所有博客
 - 每篇博客的练习作业都要完成
 - 尝试重构现有项目
+- **实践 Simple DB 项目**（强烈推荐的综合性项目）
 
 ### 深入掌握（3-6个月）
 - 深入理解内存管理
 - 参与开源项目
 - 构建完整的应用系统
+- **扩展 Simple DB 项目**（添加索引、查询优化、网络接口等高级功能）
 
 ## 配套资源
 
@@ -170,6 +172,120 @@
 - 任务管理系统（第10天的完整项目）
 - 网络爬虫
 - 数据库客户端
+- **Simple DB - 内存数据库系统** (推荐项目)
+
+#### Simple DB 项目详解
+
+Simple DB 是一个完整的内存数据库系统，展示了 Rust 在系统编程中的强大能力。该项目涵盖了 Rust 的高级特性，是学习 Rust 的绝佳实践项目。
+
+##### 🎯 项目概述
+- **项目位置**: `./simple-db/`
+- **技术栈**: Rust, Tokio (异步), Serde (序列化), UUID, Chrono (时间处理)
+- **功能特性**: 完整的 CRUD 操作、事务支持、查询引擎、持久化存储
+
+##### 🏗️ 核心架构
+```
+simple-db/
+├── src/
+│   ├── lib.rs              # 主要接口导出
+│   ├── main.rs             # CLI 入口点
+│   ├── types.rs            # 数据类型定义
+│   ├── storage.rs          # 存储引擎
+│   ├── query.rs            # 查询引擎
+│   ├── engine.rs           # 数据库引擎
+│   └── error.rs            # 错误处理
+├── tests/
+│   └── integration_test.rs  # 集成测试
+└── examples/
+    ├── basic_usage.rs      # 基本使用示例
+    └── advanced_features.rs # 高级特性示例
+```
+
+##### 💡 学习价值
+1. **所有权系统实践**: 理解 Rust 内存管理在实际项目中的应用
+2. **异步编程**: 使用 Tokio 构建高性能数据库系统
+3. **错误处理**: 完整的错误处理体系和自定义错误类型
+4. **类型系统**: 强类型约束和泛型的实际应用
+5. **测试策略**: 单元测试和集成测试的完整覆盖
+6. **并发安全**: 实现线程安全的事务处理
+
+##### 🚀 核心功能
+- **数据类型支持**: Integer, Text, Boolean, Float, Date, DateTime, Json, Binary
+- **表管理**: 创建、删除、修改表结构
+- **数据操作**: 完整的 CRUD 操作支持
+- **查询引擎**: 条件查询、排序、分页、聚合函数
+- **约束系统**: 主键、唯一约束、非空约束
+- **事务支持**: ACID 特性的事务处理
+- **持久化**: 内存+磁盘的双重存储机制
+- **批量操作**: 高效的批量插入、更新、删除
+
+##### 🧪 测试覆盖
+- **单元测试**: 15 个测试覆盖所有核心组件
+- **集成测试**: 11 个测试验证完整功能
+- **示例程序**: 完整的使用演示
+- **性能测试**: 大数据量下的性能验证
+
+##### 📚 涉及的 Rust 特性
+```rust
+// 高级类型系统
+enum DataType { /* ... */ }
+struct Schema { /* ... */ }
+impl<T> From<T> for Value { /* ... */ }
+
+// 错误处理
+#[derive(Error, Debug)]
+pub enum DatabaseError { /* ... */ }
+pub type Result<T> = std::result::Result<T, DatabaseError>;
+
+// 异步编程
+pub async fn create_table(&self, name: &str, schema: Schema) -> Result<()>
+
+// 并发安全
+use std::sync::{Arc, Mutex};
+use tokio::sync::RwLock;
+
+// 特质和泛型
+pub trait StorageEngine: Send + Sync {
+    async fn write_log(&mut self, operation: StorageOperation) -> Result<()>;
+}
+
+// 宏的使用
+serde::{Serialize, Deserialize}
+```
+
+##### 🛠️ 运行和测试
+```bash
+# 编译和运行
+cd simple-db
+cargo build
+cargo run --example basic_usage
+cargo run --example advanced_features
+
+# 运行测试
+cargo test              # 所有测试
+cargo test --lib        # 单元测试
+cargo test --test integration_test  # 集成测试
+
+# 检查代码质量
+cargo clippy
+cargo fmt
+```
+
+##### 📈 学习路径建议
+1. **第1阶段**: 理解项目结构和基本概念 (types.rs, error.rs)
+2. **第2阶段**: 学习存储引擎实现 (storage.rs)
+3. **第3阶段**: 掌握查询引擎设计 (query.rs)
+4. **第4阶段**: 理解数据库引擎集成 (engine.rs)
+5. **第5阶段**: 扩展功能和优化性能
+
+##### 🎓 扩展练习
+- 添加索引支持提高查询性能
+- 实现 SQL 解析器支持标准 SQL 语法
+- 添加网络接口支持远程访问
+- 实现更复杂的并发控制机制
+- 添加数据压缩和加密功能
+
+这个项目完美展示了如何用 Rust 构建一个完整、可靠、高效的系统级应用，是学习 Rust 高级特性的理想实践项目。
 
 ### 高级项目
 - 分布式系统

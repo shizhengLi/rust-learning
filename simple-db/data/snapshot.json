@@ -1,0 +1,262 @@
+{
+  "tables": [
+    {
+      "name": "users",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "Integer",
+            "nullable": false,
+            "unique": true,
+            "default_value": null,
+            "primary_key": true
+          },
+          {
+            "name": "name",
+            "data_type": "Text",
+            "nullable": true,
+            "unique": false,
+            "default_value": null,
+            "primary_key": false
+          },
+          {
+            "name": "age",
+            "data_type": "Integer",
+            "nullable": true,
+            "unique": false,
+            "default_value": null,
+            "primary_key": false
+          },
+          {
+            "name": "email",
+            "data_type": "Text",
+            "nullable": true,
+            "unique": true,
+            "default_value": null,
+            "primary_key": false
+          },
+          {
+            "name": "active",
+            "data_type": "Boolean",
+            "nullable": true,
+            "unique": false,
+            "default_value": {
+              "Boolean": true
+            },
+            "primary_key": false
+          }
+        ]
+      },
+      "rows": [
+        {
+          "id": "749c3be1-5c02-4ea4-bdf5-740b24c59d07",
+          "data": {
+            "email": {
+              "Text": "zhangsan@example.com"
+            },
+            "active": {
+              "Boolean": false
+            },
+            "age": {
+              "Integer": 26
+            },
+            "name": {
+              "Text": "张三"
+            },
+            "id": {
+              "Integer": 1
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.113752Z",
+          "updated_at": "2025-09-29T02:03:25.114338Z"
+        },
+        {
+          "id": "e1a4aada-dcd2-41b1-bb7f-bf0bbbc9667d",
+          "data": {
+            "name": {
+              "Text": "李四"
+            },
+            "age": {
+              "Integer": 30
+            },
+            "email": {
+              "Text": "lisi@example.com"
+            },
+            "id": {
+              "Integer": 2
+            },
+            "active": {
+              "Boolean": true
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.113882Z",
+          "updated_at": "2025-09-29T02:03:25.113882Z"
+        },
+        {
+          "id": "6912f949-665b-4f40-96c5-1edc3c2dbee4",
+          "data": {
+            "name": {
+              "Text": "用户100"
+            },
+            "id": {
+              "Integer": 100
+            },
+            "email": {
+              "Text": "user100@example.com"
+            },
+            "age": {
+              "Integer": 20
+            },
+            "active": {
+              "Boolean": true
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.115760Z",
+          "updated_at": "2025-09-29T02:03:25.115760Z"
+        },
+        {
+          "id": "c2f6b717-90a9-4597-b5a6-3fe8d91b1cbf",
+          "data": {
+            "id": {
+              "Integer": 101
+            },
+            "email": {
+              "Text": "user101@example.com"
+            },
+            "age": {
+              "Integer": 21
+            },
+            "active": {
+              "Boolean": true
+            },
+            "name": {
+              "Text": "用户101"
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.115774Z",
+          "updated_at": "2025-09-29T02:03:25.115774Z"
+        },
+        {
+          "id": "7bbfd75d-47e4-4535-aa7d-858fd8a565f6",
+          "data": {
+            "email": {
+              "Text": "user102@example.com"
+            },
+            "active": {
+              "Boolean": true
+            },
+            "id": {
+              "Integer": 102
+            },
+            "age": {
+              "Integer": 22
+            },
+            "name": {
+              "Text": "用户102"
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.115786Z",
+          "updated_at": "2025-09-29T02:03:25.115786Z"
+        },
+        {
+          "id": "3044129f-bd16-4856-8433-7b14fd29c262",
+          "data": {
+            "id": {
+              "Integer": 103
+            },
+            "email": {
+              "Text": "user103@example.com"
+            },
+            "active": {
+              "Boolean": true
+            },
+            "name": {
+              "Text": "用户103"
+            },
+            "age": {
+              "Integer": 23
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.115801Z",
+          "updated_at": "2025-09-29T02:03:25.115801Z"
+        },
+        {
+          "id": "2bc135ab-3ccd-422c-869e-a73524851d81",
+          "data": {
+            "active": {
+              "Boolean": true
+            },
+            "id": {
+              "Integer": 104
+            },
+            "email": {
+              "Text": "user104@example.com"
+            },
+            "age": {
+              "Integer": 24
+            },
+            "name": {
+              "Text": "用户104"
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.115815Z",
+          "updated_at": "2025-09-29T02:03:25.115815Z"
+        }
+      ],
+      "created_at": "2025-09-29T02:03:25.113134Z"
+    },
+    {
+      "name": "products",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "Integer",
+            "nullable": false,
+            "unique": true,
+            "default_value": null,
+            "primary_key": true
+          },
+          {
+            "name": "product_name",
+            "data_type": "Text",
+            "nullable": true,
+            "unique": false,
+            "default_value": null,
+            "primary_key": false
+          },
+          {
+            "name": "price",
+            "data_type": "Float",
+            "nullable": true,
+            "unique": false,
+            "default_value": null,
+            "primary_key": false
+          }
+        ]
+      },
+      "rows": [
+        {
+          "id": "99a1da20-279c-40bc-b1a7-48039ec4f4a0",
+          "data": {
+            "id": {
+              "Integer": 1
+            },
+            "product_name": {
+              "Text": "Laptop"
+            },
+            "price": {
+              "Float": 999.99
+            }
+          },
+          "created_at": "2025-09-29T02:03:25.115695Z",
+          "updated_at": "2025-09-29T02:03:25.115695Z"
+        }
+      ],
+      "created_at": "2025-09-29T02:03:25.115705Z"
+    }
+  ],
+  "timestamp": "2025-09-29T02:03:25.115933Z",
+  "last_log_id": 6
+}

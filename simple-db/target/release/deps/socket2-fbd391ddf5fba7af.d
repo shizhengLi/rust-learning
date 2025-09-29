@@ -1,0 +1,11 @@
+/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/release/deps/socket2-fbd391ddf5fba7af.d: /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/lib.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockaddr.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/socket.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockref.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sys/unix.rs
+
+/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/release/deps/libsocket2-fbd391ddf5fba7af.rlib: /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/lib.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockaddr.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/socket.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockref.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sys/unix.rs
+
+/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/release/deps/libsocket2-fbd391ddf5fba7af.rmeta: /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/lib.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockaddr.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/socket.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockref.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sys/unix.rs
+
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/lib.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockaddr.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/socket.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sockref.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.0/src/sys/unix.rs:

@@ -1,0 +1,14 @@
+/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/deps/serde-ffc20dd95a030c44.d: /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/build/serde-7cb620e44cc644da/out/private.rs
+
+/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/deps/libserde-ffc20dd95a030c44.rlib: /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/build/serde-7cb620e44cc644da/out/private.rs
+
+/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/deps/libserde-ffc20dd95a030c44.rmeta: /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/build/serde-7cb620e44cc644da/out/private.rs
+
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/lishizheng/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/build/serde-7cb620e44cc644da/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/lishizheng/Desktop/Code/rust-learning/simple-db/target/debug/build/serde-7cb620e44cc644da/out
